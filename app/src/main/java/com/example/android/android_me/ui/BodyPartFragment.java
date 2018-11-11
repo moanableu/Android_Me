@@ -25,7 +25,8 @@ public class BodyPartFragment extends Fragment {
         // reference to obj in layout
         ImageView imageView = rootView.findViewById(R.id.body_part_image_view);
 
-        imageView.setImageResource(AndroidImageAssets.getHeads().get(0)); // missing assets in starter code repo
+        imageView.setImageResource(R.drawable.head8);
+
 
         return rootView;
     }
